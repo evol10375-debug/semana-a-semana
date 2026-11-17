@@ -1,0 +1,17 @@
+{
+  "name": "Semana a semana",
+  "short_name": "Semana",
+  "lang": "es",
+  "display": "standalone",
+  "start_url": "/semana-a-semana/",
+  "scope": "/semana-a-semana/",
+  "background_color": "#F6F4F0",
+  "theme_color": "#1F4E5F",
+  "icons": [
+    {
+      "src": "/semana-a-semana/apple-touch-icon.png",
+      "sizes": "1024x1024",
+      "type": "image/png"
+    }
+  ]
+}
