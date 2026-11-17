@@ -1,17 +1,44 @@
 {
+  "id": "/semana-a-semana/",
   "name": "Tu Semana",
   "short_name": "Tu Semana",
   "lang": "es",
+  "dir": "ltr",
+  "description": "Organización y bienestar para padres y madres separados: calendario de custodia, gastos, mensajes tranquilos y más.",
   "display": "standalone",
+  "orientation": "portrait",
+  "categories": [
+    "lifestyle",
+    "productivity"
+  ],
   "start_url": "/semana-a-semana/",
   "scope": "/semana-a-semana/",
   "background_color": "#F6F4F0",
   "theme_color": "#1F4E5F",
   "icons": [
     {
+      "src": "/semana-a-semana/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/semana-a-semana/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/semana-a-semana/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
       "src": "/semana-a-semana/apple-touch-icon.png",
       "sizes": "1024x1024",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any"
     }
   ]
 }
