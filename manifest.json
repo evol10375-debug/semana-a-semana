@@ -1,6 +1,6 @@
 {
-  "name": "Semana a semana",
-  "short_name": "Semana",
+  "name": "Tu Semana",
+  "short_name": "Tu Semana",
   "lang": "es",
   "display": "standalone",
   "start_url": "/semana-a-semana/",

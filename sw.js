@@ -1,10 +1,10 @@
-// Semana a semana · avisos
+// Tu Semana · avisos
 self.addEventListener('install', () => self.skipWaiting());
 self.addEventListener('activate', (e) => e.waitUntil(self.clients.claim()));
 self.addEventListener('push', (e) => {
   let d = {};
   try { d = e.data ? e.data.json() : {}; } catch (_) { d = { body: e.data ? e.data.text() : '' }; }
-  e.waitUntil(self.registration.showNotification(d.title || 'Semana a semana', {
+  e.waitUntil(self.registration.showNotification(d.title || 'Tu Semana', {
     body: d.body || '', icon: 'apple-touch-icon.png', badge: 'apple-touch-icon.png', data: { url: d.url || '' }, tag: d.tag || undefined,
   }));
 });
